@@ -1,0 +1,2584 @@
+-- Logs begin at Sat 2025-06-21 19:04:00 UTC, end at Wed 2026-09-23 01:21:58 UTC. --
+Sep 23 01:21:03 4geeks-server kernel: check: Scanning for low memory corruption every 60 seconds
+Sep 23 01:21:03 4geeks-server kernel: Initialise system trusted keyrings
+Sep 23 01:21:03 4geeks-server kernel: Key type blacklist registered
+Sep 23 01:21:03 4geeks-server kernel: workingset: timestamp_bits=36 max_order=20 bucket_order=0
+Sep 23 01:21:03 4geeks-server kernel: zbud: loaded
+Sep 23 01:21:03 4geeks-server kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Sep 23 01:21:03 4geeks-server kernel: fuse: init (API version 7.31)
+Sep 23 01:21:03 4geeks-server kernel: *** VALIDATE fuse ***
+Sep 23 01:21:03 4geeks-server kernel: *** VALIDATE fuse ***
+Sep 23 01:21:03 4geeks-server kernel: Platform Keyring initialized
+Sep 23 01:21:03 4geeks-server kernel: Key type asymmetric registered
+Sep 23 01:21:03 4geeks-server kernel: Asymmetric key parser 'x509' registered
+Sep 23 01:21:03 4geeks-server kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
+Sep 23 01:21:03 4geeks-server kernel: io scheduler mq-deadline registered
+Sep 23 01:21:03 4geeks-server kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Sep 23 01:21:03 4geeks-server kernel: ACPI: AC Adapter [AC] (on-line)
+Sep 23 01:21:03 4geeks-server kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Sep 23 01:21:03 4geeks-server kernel: ACPI: Power Button [PWRF]
+Sep 23 01:21:03 4geeks-server kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Sep 23 01:21:03 4geeks-server kernel: ACPI: Sleep Button [SLPF]
+Sep 23 01:21:03 4geeks-server kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Sep 23 01:21:03 4geeks-server kernel: battery: ACPI: Battery Slot [BAT0] (battery present)
+Sep 23 01:21:03 4geeks-server kernel: Linux agpgart interface v0.103
+Sep 23 01:21:03 4geeks-server kernel: loop: module loaded
+Sep 23 01:21:03 4geeks-server kernel: ata_piix 0000:00:01.1: version 2.13
+Sep 23 01:21:03 4geeks-server kernel: scsi host0: ata_piix
+Sep 23 01:21:03 4geeks-server kernel: scsi host1: ata_piix
+Sep 23 01:21:03 4geeks-server kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Sep 23 01:21:03 4geeks-server kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Sep 23 01:21:03 4geeks-server kernel: tun: Universal TUN/TAP device driver, 1.6
+Sep 23 01:21:03 4geeks-server kernel: PPP generic driver version 2.4.2
+Sep 23 01:21:03 4geeks-server kernel: VFIO - User Level meta-driver version: 0.3
+Sep 23 01:21:03 4geeks-server kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Sep 23 01:21:03 4geeks-server kernel: ehci-pci: EHCI PCI platform driver
+Sep 23 01:21:03 4geeks-server kernel: ehci-pci 0000:00:0b.0: EHCI Host Controller
+Sep 23 01:21:03 4geeks-server kernel: ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+Sep 23 01:21:03 4geeks-server kernel: ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+Sep 23 01:21:03 4geeks-server kernel: ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Sep 23 01:21:03 4geeks-server kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+Sep 23 01:21:03 4geeks-server kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep 23 01:21:03 4geeks-server kernel: usb usb1: Product: EHCI Host Controller
+Sep 23 01:21:03 4geeks-server kernel: usb usb1: Manufacturer: Linux 5.4.0-216-generic ehci_hcd
+Sep 23 01:21:03 4geeks-server kernel: usb usb1: SerialNumber: 0000:00:0b.0
+Sep 23 01:21:03 4geeks-server kernel: hub 1-0:1.0: USB hub found
+Sep 23 01:21:03 4geeks-server kernel: hub 1-0:1.0: 12 ports detected
+Sep 23 01:21:03 4geeks-server kernel: ehci-platform: EHCI generic platform driver
+Sep 23 01:21:03 4geeks-server kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Sep 23 01:21:03 4geeks-server kernel: ohci-pci: OHCI PCI platform driver
+Sep 23 01:21:03 4geeks-server kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+Sep 23 01:21:03 4geeks-server kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+Sep 23 01:21:03 4geeks-server kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Sep 23 01:21:03 4geeks-server kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.04
+Sep 23 01:21:03 4geeks-server kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep 23 01:21:03 4geeks-server kernel: usb usb2: Product: OHCI PCI host controller
+Sep 23 01:21:03 4geeks-server kernel: usb usb2: Manufacturer: Linux 5.4.0-216-generic ohci_hcd
+Sep 23 01:21:03 4geeks-server kernel: usb usb2: SerialNumber: 0000:00:06.0
+Sep 23 01:21:03 4geeks-server kernel: ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Sep 23 01:21:03 4geeks-server kernel: hub 2-0:1.0: USB hub found
+Sep 23 01:21:03 4geeks-server kernel: hub 2-0:1.0: 12 ports detected
+Sep 23 01:21:03 4geeks-server kernel: ata1.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Sep 23 01:21:03 4geeks-server kernel: ohci-platform: OHCI generic platform driver
+Sep 23 01:21:03 4geeks-server kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Sep 23 01:21:03 4geeks-server kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Sep 23 01:21:03 4geeks-server kernel: scsi 0:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Sep 23 01:21:03 4geeks-server kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Sep 23 01:21:03 4geeks-server kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Sep 23 01:21:03 4geeks-server kernel: mousedev: PS/2 mouse device common for all mice
+Sep 23 01:21:03 4geeks-server kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Sep 23 01:21:03 4geeks-server kernel: rtc_cmos rtc_cmos: registered as rtc0
+Sep 23 01:21:03 4geeks-server kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Sep 23 01:21:03 4geeks-server kernel: i2c /dev entries driver
+Sep 23 01:21:03 4geeks-server kernel: device-mapper: uevent: version 1.0.3
+Sep 23 01:21:03 4geeks-server kernel: device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: Probing EISA bus 0
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: EISA: Cannot allocate resource for mainboard
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: Cannot allocate resource for EISA slot 1
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: Cannot allocate resource for EISA slot 2
+Sep 23 01:21:03 4geeks-server kernel: sr 0:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: Cannot allocate resource for EISA slot 3
+Sep 23 01:21:03 4geeks-server kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: Cannot allocate resource for EISA slot 4
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: Cannot allocate resource for EISA slot 5
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: Cannot allocate resource for EISA slot 6
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: Cannot allocate resource for EISA slot 7
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: Cannot allocate resource for EISA slot 8
+Sep 23 01:21:03 4geeks-server kernel: platform eisa.0: EISA: Detected 0 cards
+Sep 23 01:21:03 4geeks-server kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Sep 23 01:21:03 4geeks-server kernel: drop_monitor: Initializing network drop monitor service
+Sep 23 01:21:03 4geeks-server kernel: NET: Registered protocol family 10
+Sep 23 01:21:03 4geeks-server kernel: sr 0:0:0:0: Attached scsi CD-ROM sr0
+Sep 23 01:21:03 4geeks-server kernel: sr 0:0:0:0: Attached scsi generic sg0 type 5
+Sep 23 01:21:03 4geeks-server kernel: scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Sep 23 01:21:03 4geeks-server kernel: Segment Routing with IPv6
+Sep 23 01:21:03 4geeks-server kernel: NET: Registered protocol family 17
+Sep 23 01:21:03 4geeks-server kernel: Key type dns_resolver registered
+Sep 23 01:21:03 4geeks-server kernel: RAS: Correctable Errors collector initialized.
+Sep 23 01:21:03 4geeks-server kernel: IPI shorthand broadcast: enabled
+Sep 23 01:21:03 4geeks-server kernel: sched_clock: Marking stable (3736146893, 367755650)->(4104857935, -955392)
+Sep 23 01:21:03 4geeks-server kernel: registered taskstats version 1
+Sep 23 01:21:03 4geeks-server kernel: Loading compiled-in X.509 certificates
+Sep 23 01:21:03 4geeks-server kernel: sr 1:0:0:0: [sr1] scsi3-mmc drive: 32x/32x xa/form2 tray
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 14c36717ad359583ee32ae03fbd4065176a861b3'
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Sep 23 01:21:03 4geeks-server kernel: blacklist: Loading compiled-in revocation X.509 certificates
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+Sep 23 01:21:03 4geeks-server kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+Sep 23 01:21:03 4geeks-server kernel: zswap: loaded using pool lzo/zbud
+Sep 23 01:21:03 4geeks-server kernel: Key type ._fscrypt registered
+Sep 23 01:21:03 4geeks-server kernel: Key type .fscrypt registered
+Sep 23 01:21:03 4geeks-server kernel: sr 1:0:0:0: Attached scsi CD-ROM sr1
+Sep 23 01:21:03 4geeks-server kernel: sr 1:0:0:0: Attached scsi generic sg1 type 5
+Sep 23 01:21:03 4geeks-server kernel: Key type big_key registered
+Sep 23 01:21:03 4geeks-server kernel: Key type encrypted registered
+Sep 23 01:21:03 4geeks-server kernel: AppArmor: AppArmor sha1 policy hashing enabled
+Sep 23 01:21:03 4geeks-server kernel: ima: No TPM chip found, activating TPM-bypass!
+Sep 23 01:21:03 4geeks-server kernel: ima: Allocated hash algorithm: sha1
+Sep 23 01:21:03 4geeks-server kernel: ima: No architecture policies found
+Sep 23 01:21:03 4geeks-server kernel: evm: Initialising EVM extended attributes:
+Sep 23 01:21:03 4geeks-server kernel: evm: security.selinux
+Sep 23 01:21:03 4geeks-server kernel: evm: security.SMACK64
+Sep 23 01:21:03 4geeks-server kernel: evm: security.SMACK64EXEC
+Sep 23 01:21:03 4geeks-server kernel: evm: security.SMACK64TRANSMUTE
+Sep 23 01:21:03 4geeks-server kernel: evm: security.SMACK64MMAP
+Sep 23 01:21:03 4geeks-server kernel: evm: security.apparmor
+Sep 23 01:21:03 4geeks-server kernel: evm: security.ima
+Sep 23 01:21:03 4geeks-server kernel: evm: security.capability
+Sep 23 01:21:03 4geeks-server kernel: evm: HMAC attrs: 0x1
+Sep 23 01:21:03 4geeks-server kernel: PM:   Magic number: 10:122:307
+Sep 23 01:21:03 4geeks-server kernel: tty tty36: hash matches
+Sep 23 01:21:03 4geeks-server kernel: rtc_cmos rtc_cmos: setting system clock to 2026-09-23T01:20:58 UTC (1790126458)
+Sep 23 01:21:03 4geeks-server kernel: clk: Disabling unused clocks
+Sep 23 01:21:03 4geeks-server kernel: Freeing unused decrypted memory: 2040K
+Sep 23 01:21:03 4geeks-server kernel: Freeing unused kernel image memory: 2772K
+Sep 23 01:21:03 4geeks-server kernel: Write protecting the kernel read-only data: 26624k
+Sep 23 01:21:03 4geeks-server kernel: Freeing unused kernel image memory: 2036K
+Sep 23 01:21:03 4geeks-server kernel: Freeing unused kernel image memory: 916K
+Sep 23 01:21:03 4geeks-server kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Sep 23 01:21:03 4geeks-server kernel: Run /init as init process
+Sep 23 01:21:03 4geeks-server kernel: usb 2-1: new full-speed USB device number 2 using ohci-pci
+Sep 23 01:21:03 4geeks-server kernel: usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Sep 23 01:21:03 4geeks-server kernel: usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Sep 23 01:21:03 4geeks-server kernel: usb 2-1: Product: USB Tablet
+Sep 23 01:21:03 4geeks-server kernel: usb 2-1: Manufacturer: VirtualBox
+Sep 23 01:21:03 4geeks-server kernel: hidraw: raw HID events driver (C) Jiri Kosina
+Sep 23 01:21:03 4geeks-server kernel: usbcore: registered new interface driver usbhid
+Sep 23 01:21:03 4geeks-server kernel: usbhid: USB HID core driver
+Sep 23 01:21:03 4geeks-server kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4
+Sep 23 01:21:03 4geeks-server kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Sep 23 01:21:03 4geeks-server kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 23 01:21:03 4geeks-server kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input5
+Sep 23 01:21:03 4geeks-server kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Sep 23 01:21:03 4geeks-server kernel: ahci 0000:00:0d.0: version 3.0
+Sep 23 01:21:03 4geeks-server kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Sep 23 01:21:03 4geeks-server kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Sep 23 01:21:03 4geeks-server kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Sep 23 01:21:03 4geeks-server kernel: e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Sep 23 01:21:03 4geeks-server kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Sep 23 01:21:03 4geeks-server kernel: cryptd: max_cpu_qlen set to 1000
+Sep 23 01:21:03 4geeks-server kernel: scsi host2: ahci
+Sep 23 01:21:03 4geeks-server kernel: ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Sep 23 01:21:03 4geeks-server kernel: AVX2 version of gcm_enc/dec engaged.
+Sep 23 01:21:03 4geeks-server kernel: AES CTR mode by8 optimization enabled
+Sep 23 01:21:03 4geeks-server kernel: [drm] DMA map mode: Caching DMA mappings.
+Sep 23 01:21:03 4geeks-server kernel: [drm] Capabilities:
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Rect copy.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Cursor.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Cursor bypass.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Cursor bypass 2.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Alpha cursor.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Extended Fifo.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Pitchlock.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Irq mask.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   GMR.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Traces.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   GMR2.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Screen Object 2.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Command Buffers.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Command Buffers 2.
+Sep 23 01:21:03 4geeks-server kernel: [drm]   Guest Backed Resources.
+Sep 23 01:21:03 4geeks-server kernel: [drm] Capabilities2:
+Sep 23 01:21:03 4geeks-server kernel: [drm] Max GMR ids is 8192
+Sep 23 01:21:03 4geeks-server kernel: [drm] Max number of GMR pages is 1048576
+Sep 23 01:21:03 4geeks-server kernel: [drm] Max dedicated hypervisor surface memory is 507904 kiB
+Sep 23 01:21:03 4geeks-server kernel: [drm] Maximum display memory size is 16384 kiB
+Sep 23 01:21:03 4geeks-server kernel: [drm] VRAM at 0xe0000000 size is 16384 kiB
+Sep 23 01:21:03 4geeks-server kernel: [drm] MMIO at 0xf0000000 size is 2048 kiB
+Sep 23 01:21:03 4geeks-server kernel: [TTM] Zone  kernel: Available graphics memory: 2007010 KiB
+Sep 23 01:21:03 4geeks-server kernel: [TTM] Initializing pool allocator
+Sep 23 01:21:03 4geeks-server kernel: [TTM] Initializing DMA pool allocator
+Sep 23 01:21:03 4geeks-server kernel: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Sep 23 01:21:03 4geeks-server kernel: [drm] No driver support for vblank timestamp query.
+Sep 23 01:21:03 4geeks-server kernel: [drm] Screen Target Display device initialized
+Sep 23 01:21:03 4geeks-server kernel: [drm] width 720
+Sep 23 01:21:03 4geeks-server kernel: [drm] height 400
+Sep 23 01:21:03 4geeks-server kernel: [drm] bpp 32
+Sep 23 01:21:03 4geeks-server kernel: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Sep 23 01:21:03 4geeks-server kernel: [drm] Using command buffers with DMA pool.
+Sep 23 01:21:03 4geeks-server kernel: [drm] Atomic: yes.
+Sep 23 01:21:03 4geeks-server kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+Sep 23 01:21:03 4geeks-server kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+Sep 23 01:21:03 4geeks-server kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input6
+Sep 23 01:21:03 4geeks-server kernel: fbcon: svgadrmfb (fb0) is primary device
+Sep 23 01:21:03 4geeks-server kernel: Console: switching to colour frame buffer device 100x37
+Sep 23 01:21:03 4geeks-server kernel: [drm] Initialized vmwgfx 2.15.0 20180704 for 0000:00:02.0 on minor 0
+Sep 23 01:21:03 4geeks-server kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Sep 23 01:21:03 4geeks-server kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Sep 23 01:21:03 4geeks-server kernel: ata3.00: 31457280 sectors, multi 128: LBA48 NCQ (depth 32)
+Sep 23 01:21:03 4geeks-server kernel: ata3.00: configured for UDMA/133
+Sep 23 01:21:03 4geeks-server kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Sep 23 01:21:03 4geeks-server kernel: sd 2:0:0:0: [sda] 31457280 512-byte logical blocks: (16.1 GB/15.0 GiB)
+Sep 23 01:21:03 4geeks-server kernel: sd 2:0:0:0: [sda] Write Protect is off
+Sep 23 01:21:03 4geeks-server kernel: sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Sep 23 01:21:03 4geeks-server kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Sep 23 01:21:03 4geeks-server kernel: sd 2:0:0:0: Attached scsi generic sg2 type 0
+Sep 23 01:21:03 4geeks-server kernel:  sda: sda1 sda2
+Sep 23 01:21:03 4geeks-server kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Sep 23 01:21:03 4geeks-server kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:eb:3e:94
+Sep 23 01:21:03 4geeks-server kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Sep 23 01:21:03 4geeks-server kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+Sep 23 01:21:03 4geeks-server kernel: raid6: avx2x4   gen() 33634 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: avx2x4   xor() 16237 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: avx2x2   gen() 34207 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: avx2x2   xor() 21524 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: avx2x1   gen() 18589 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: avx2x1   xor() 17540 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: sse2x4   gen() 17230 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: sse2x4   xor() 10195 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: sse2x2   gen() 16533 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: sse2x2   xor() 11070 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: sse2x1   gen()  8071 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: sse2x1   xor()  8856 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: using algorithm avx2x2 gen() 34207 MB/s
+Sep 23 01:21:03 4geeks-server kernel: raid6: .... xor() 21524 MB/s, rmw enabled
+Sep 23 01:21:03 4geeks-server kernel: raid6: using avx2x2 recovery algorithm
+Sep 23 01:21:03 4geeks-server kernel: xor: automatically using best checksumming function   avx       
+Sep 23 01:21:03 4geeks-server kernel: async_tx: api initialized (async)
+Sep 23 01:21:03 4geeks-server kernel: Btrfs loaded, crc32c=crc32c-intel
+Sep 23 01:21:03 4geeks-server kernel: EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+Sep 23 01:21:03 4geeks-server systemd[1]: Inserted module 'autofs4'
+Sep 23 01:21:03 4geeks-server systemd[1]: systemd 245.4-4ubuntu3.20 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
+Sep 23 01:21:03 4geeks-server systemd[1]: Detected virtualization oracle.
+Sep 23 01:21:03 4geeks-server systemd[1]: Detected architecture x86-64.
+Sep 23 01:21:03 4geeks-server systemd[1]: Set hostname to <4geeks-server>.
+Sep 23 01:21:03 4geeks-server systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Sep 23 01:21:03 4geeks-server systemd[1]: Created slice system-modprobe.slice.
+Sep 23 01:21:03 4geeks-server systemd[1]: Created slice User and Session Slice.
+Sep 23 01:21:03 4geeks-server systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Sep 23 01:21:03 4geeks-server systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Sep 23 01:21:03 4geeks-server systemd[1]: Reached target User and Group Name Lookups.
+Sep 23 01:21:03 4geeks-server systemd[1]: Reached target Slices.
+Sep 23 01:21:03 4geeks-server systemd[1]: Reached target Mounting snaps.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on Device-mapper event daemon FIFOs.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on LVM2 poll daemon socket.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on multipathd control socket.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on Syslog Socket.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on fsck to fsckd communication Socket.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on initctl Compatibility Named Pipe.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on Journal Audit Socket.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on Journal Socket (/dev/log).
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on Journal Socket.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on Network Service Netlink Socket.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on udev Control Socket.
+Sep 23 01:21:03 4geeks-server systemd[1]: Listening on udev Kernel Socket.
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounting Huge Pages File System...
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounting POSIX Message Queue File System...
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounting Kernel Debug File System...
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounting Kernel Trace File System...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Journal Service...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Set the console keyboard layout...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Create list of static device nodes for the current kernel...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Load Kernel Module chromeos_pstore...
+Sep 23 01:21:03 4geeks-server systemd[1]: Condition check resulted in Load Kernel Module drm being skipped.
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Load Kernel Module efi_pstore...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Load Kernel Module pstore_blk...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Load Kernel Module pstore_zone...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Load Kernel Module ramoops...
+Sep 23 01:21:03 4geeks-server systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+Sep 23 01:21:03 4geeks-server systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+Sep 23 01:21:03 4geeks-server systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Load Kernel Modules...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Remount Root and Kernel File Systems...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting udev Coldplug all Devices...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Uncomplicated firewall...
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounted Huge Pages File System.
+Sep 23 01:21:03 4geeks-server kernel: EXT4-fs (sda2): re-mounted. Opts: (null)
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounted POSIX Message Queue File System.
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounted Kernel Debug File System.
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounted Kernel Trace File System.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Create list of static device nodes for the current kernel.
+Sep 23 01:21:03 4geeks-server systemd[1]: modprobe@efi_pstore.service: Succeeded.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Load Kernel Module efi_pstore.
+Sep 23 01:21:03 4geeks-server systemd[1]: modprobe@pstore_blk.service: Succeeded.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Load Kernel Module pstore_blk.
+Sep 23 01:21:03 4geeks-server systemd[1]: modprobe@chromeos_pstore.service: Succeeded.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Load Kernel Module chromeos_pstore.
+Sep 23 01:21:03 4geeks-server kernel: bpfilter: Loaded bpfilter_umh pid 380
+Sep 23 01:21:03 4geeks-server systemd[1]: modprobe@pstore_zone.service: Succeeded.
+Sep 23 01:21:03 4geeks-server unknown: Started bpfilter
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Load Kernel Module pstore_zone.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Load Kernel Modules.
+Sep 23 01:21:03 4geeks-server systemd[1]: modprobe@ramoops.service: Succeeded.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Load Kernel Module ramoops.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Remount Root and Kernel File Systems.
+Sep 23 01:21:03 4geeks-server systemd[1]: Activating swap /swap.img...
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounting FUSE Control File System...
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounting Kernel Configuration File System...
+Sep 23 01:21:03 4geeks-server systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Sep 23 01:21:03 4geeks-server systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Load/Save Random Seed...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Apply Kernel Variables...
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Create System Users...
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounted FUSE Control File System.
+Sep 23 01:21:03 4geeks-server systemd[1]: Mounted Kernel Configuration File System.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Load/Save Random Seed.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Create System Users.
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Create Static Device Nodes in /dev...
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Apply Kernel Variables.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Sep 23 01:21:03 4geeks-server systemd-journald[360]: Journal started
+-- Subject: The journal has been started
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The system journal process has started up, opened the journal
+-- files for writing and is now ready to process requests.
+Sep 23 01:21:03 4geeks-server systemd-journald[360]: Runtime Journal (/run/log/journal/92e337bfab6d49ab8421fbb605b48cd7) is 4.9M, max 39.2M, 34.3M free.
+-- Subject: Disk space used by the journal
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Runtime Journal (/run/log/journal/92e337bfab6d49ab8421fbb605b48cd7) is currently using 4.9M.
+-- Maximum allowed usage is set to 39.2M.
+-- Leaving at least 19.6M free (of currently available 386.5M of disk space).
+-- Enforced usage limit is thus 39.2M, of which 34.3M are still available.
+-- 
+-- The limits controlling how much disk space is used by the journal may
+-- be configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,
+-- RuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in
+-- /etc/systemd/journald.conf. See journald.conf(5) for details.
+Sep 23 01:21:03 4geeks-server systemd[1]: Started Journal Service.
+Sep 23 01:21:03 4geeks-server systemd-modules-load[371]: Inserted module 'msr'
+Sep 23 01:21:03 4geeks-server systemd-sysctl[393]: Not setting net/ipv4/conf/all/promote_secondaries (explicit setting exists).
+Sep 23 01:21:03 4geeks-server systemd-sysctl[393]: Not setting net/ipv4/conf/default/promote_secondaries (explicit setting exists).
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting Flush Journal to Persistent Storage...
+-- Subject: A start job for unit systemd-journal-flush.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-journal-flush.service has begun execution.
+-- 
+-- The job identifier is 64.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Create Static Device Nodes in /dev.
+-- Subject: A start job for unit systemd-tmpfiles-setup-dev.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-tmpfiles-setup-dev.service has finished successfully.
+-- 
+-- The job identifier is 53.
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting udev Kernel Device Manager...
+-- Subject: A start job for unit systemd-udevd.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-udevd.service has begun execution.
+-- 
+-- The job identifier is 10.
+Sep 23 01:21:03 4geeks-server systemd-journald[360]: Time spent on flushing to /var/log/journal/92e337bfab6d49ab8421fbb605b48cd7 is 143.387ms for 666 entries.
+Sep 23 01:21:03 4geeks-server systemd-journald[360]: System Journal (/var/log/journal/92e337bfab6d49ab8421fbb605b48cd7) is 48.0M, max 1.4G, 1.4G free.
+-- Subject: Disk space used by the journal
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- System Journal (/var/log/journal/92e337bfab6d49ab8421fbb605b48cd7) is currently using 48.0M.
+-- Maximum allowed usage is set to 1.4G.
+-- Leaving at least 750.5M free (of currently available 8.1G of disk space).
+-- Enforced usage limit is thus 1.4G, of which 1.4G are still available.
+-- 
+-- The limits controlling how much disk space is used by the journal may
+-- be configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,
+-- RuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in
+-- /etc/systemd/journald.conf. See journald.conf(5) for details.
+Sep 23 01:21:03 4geeks-server kernel: Adding 3243004k swap on /swap.img.  Priority:-2 extents:4 across:3390460k FS
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished udev Coldplug all Devices.
+-- Subject: A start job for unit systemd-udev-trigger.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-udev-trigger.service has finished successfully.
+-- 
+-- The job identifier is 9.
+Sep 23 01:21:03 4geeks-server systemd[1]: Starting udev Wait for Complete Device Initialization...
+-- Subject: A start job for unit systemd-udev-settle.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-udev-settle.service has begun execution.
+-- 
+-- The job identifier is 42.
+Sep 23 01:21:03 4geeks-server systemd[1]: Activated swap /swap.img.
+-- Subject: A start job for unit swap.img.swap has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit swap.img.swap has finished successfully.
+-- 
+-- The job identifier is 18.
+Sep 23 01:21:03 4geeks-server systemd[1]: Reached target Swap.
+-- Subject: A start job for unit swap.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit swap.target has finished successfully.
+-- 
+-- The job identifier is 17.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Set the console keyboard layout.
+-- Subject: A start job for unit keyboard-setup.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit keyboard-setup.service has finished successfully.
+-- 
+-- The job identifier is 50.
+Sep 23 01:21:03 4geeks-server systemd[1]: Started udev Kernel Device Manager.
+-- Subject: A start job for unit systemd-udevd.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-udevd.service has finished successfully.
+-- 
+-- The job identifier is 10.
+Sep 23 01:21:03 4geeks-server systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+-- Subject: A start job for unit plymouth-start.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit plymouth-start.service has finished successfully.
+-- 
+-- The job identifier is 62.
+Sep 23 01:21:03 4geeks-server systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+-- Subject: A start job for unit systemd-ask-password-console.path has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-ask-password-console.path has finished successfully.
+-- 
+-- The job identifier is 76.
+Sep 23 01:21:03 4geeks-server systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+-- Subject: A start job for unit systemd-ask-password-plymouth.path has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-ask-password-plymouth.path has finished successfully.
+-- 
+-- The job identifier is 63.
+Sep 23 01:21:03 4geeks-server systemd[1]: Reached target Local Encrypted Volumes.
+-- Subject: A start job for unit cryptsetup.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cryptsetup.target has finished successfully.
+-- 
+-- The job identifier is 75.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Flush Journal to Persistent Storage.
+-- Subject: A start job for unit systemd-journal-flush.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-journal-flush.service has finished successfully.
+-- 
+-- The job identifier is 64.
+Sep 23 01:21:03 4geeks-server systemd[1]: Finished Uncomplicated firewall.
+-- Subject: A start job for unit ufw.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit ufw.service has finished successfully.
+-- 
+-- The job identifier is 117.
+Sep 23 01:21:04 4geeks-server systemd-udevd[482]: Using default interface naming scheme 'v245'.
+Sep 23 01:21:04 4geeks-server systemd-udevd[482]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Sep 23 01:21:04 4geeks-server kernel: vboxguest: loading out-of-tree module taints kernel.
+Sep 23 01:21:04 4geeks-server kernel: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Sep 23 01:21:04 4geeks-server kernel: Host supports full mouse state reporting, switching to extended mouse integration protocol
+Sep 23 01:21:04 4geeks-server kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+Sep 23 01:21:04 4geeks-server kernel: vboxguest: Successfully loaded version 6.1.50_Ubuntu r161033
+Sep 23 01:21:04 4geeks-server kernel: vboxguest: misc device minor 59, IRQ 20, I/O port d040, MMIO at 00000000f0400000 (size 0x400000)
+Sep 23 01:21:04 4geeks-server kernel: vboxguest: Successfully loaded version 6.1.50_Ubuntu r161033 (interface 0x00010004)
+Sep 23 01:21:04 4geeks-server kernel: Decoding supported only on Scalable MCA processors.
+Sep 23 01:21:04 4geeks-server systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+-- Subject: A start job for unit systemd-rfkill.socket has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-rfkill.socket has finished successfully.
+-- 
+-- The job identifier is 178.
+Sep 23 01:21:04 4geeks-server systemd-udevd[463]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Sep 23 01:21:04 4geeks-server udevadm[416]: systemd-udev-settle.service is deprecated.
+Sep 23 01:21:04 4geeks-server kernel: snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Sep 23 01:21:04 4geeks-server systemd[1]: Reached target Sound Card.
+-- Subject: A start job for unit sound.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit sound.target has finished successfully.
+-- 
+-- The job identifier is 185.
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: Mounting Arbitrary Executable File Formats File System...
+-- Subject: A start job for unit proc-sys-fs-binfmt_misc.mount has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit proc-sys-fs-binfmt_misc.mount has begun execution.
+-- 
+-- The job identifier is 188.
+Sep 23 01:21:04 4geeks-server systemd[1]: Mounted Arbitrary Executable File Formats File System.
+-- Subject: A start job for unit proc-sys-fs-binfmt_misc.mount has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit proc-sys-fs-binfmt_misc.mount has finished successfully.
+-- 
+-- The job identifier is 188.
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 529 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 524 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (snap)
+Sep 23 01:21:04 4geeks-server systemd[1]: proc-sys-fs-binfmt_misc.automount: Automount point already active?
+Sep 23 01:21:04 4geeks-server systemd[1]: Finished udev Wait for Complete Device Initialization.
+-- Subject: A start job for unit systemd-udev-settle.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-udev-settle.service has finished successfully.
+-- 
+-- The job identifier is 42.
+Sep 23 01:21:04 4geeks-server systemd[1]: Starting Device-Mapper Multipath Device Controller...
+-- Subject: A start job for unit multipathd.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit multipathd.service has begun execution.
+-- 
+-- The job identifier is 41.
+Sep 23 01:21:04 4geeks-server kernel: alua: device handler registered
+Sep 23 01:21:04 4geeks-server kernel: emc: device handler registered
+Sep 23 01:21:04 4geeks-server kernel: rdac: device handler registered
+Sep 23 01:21:05 4geeks-server multipathd[622]: --------start up--------
+Sep 23 01:21:05 4geeks-server multipathd[622]: read /etc/multipath.conf
+Sep 23 01:21:05 4geeks-server multipathd[622]: path checkers start up
+Sep 23 01:21:05 4geeks-server systemd[1]: Started Device-Mapper Multipath Device Controller.
+-- Subject: A start job for unit multipathd.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit multipathd.service has finished successfully.
+-- 
+-- The job identifier is 41.
+Sep 23 01:21:05 4geeks-server systemd[1]: Reached target Local File Systems (Pre).
+-- Subject: A start job for unit local-fs-pre.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit local-fs-pre.target has finished successfully.
+-- 
+-- The job identifier is 49.
+Sep 23 01:21:05 4geeks-server systemd[1]: Mounting Mount unit for core20, revision 1828...
+-- Subject: A start job for unit snap-core20-1828.mount has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-core20-1828.mount has begun execution.
+-- 
+-- The job identifier is 115.
+Sep 23 01:21:05 4geeks-server systemd[1]: Mounting Mount unit for lxd, revision 24061...
+-- Subject: A start job for unit snap-lxd-24061.mount has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-lxd-24061.mount has begun execution.
+-- 
+-- The job identifier is 89.
+Sep 23 01:21:05 4geeks-server systemd[1]: Mounting Mount unit for snapd, revision 18357...
+-- Subject: A start job for unit snap-snapd-18357.mount has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-snapd-18357.mount has begun execution.
+-- 
+-- The job identifier is 109.
+Sep 23 01:21:05 4geeks-server systemd[1]: Mounted Mount unit for core20, revision 1828.
+-- Subject: A start job for unit snap-core20-1828.mount has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-core20-1828.mount has finished successfully.
+-- 
+-- The job identifier is 115.
+Sep 23 01:21:05 4geeks-server systemd[1]: Mounted Mount unit for lxd, revision 24061.
+-- Subject: A start job for unit snap-lxd-24061.mount has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-lxd-24061.mount has finished successfully.
+-- 
+-- The job identifier is 89.
+Sep 23 01:21:05 4geeks-server systemd[1]: Mounted Mount unit for snapd, revision 18357.
+-- Subject: A start job for unit snap-snapd-18357.mount has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap-snapd-18357.mount has finished successfully.
+-- 
+-- The job identifier is 109.
+Sep 23 01:21:05 4geeks-server systemd[1]: Reached target Mounted snaps.
+-- Subject: A start job for unit snapd.mounts.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.mounts.target has finished successfully.
+-- 
+-- The job identifier is 114.
+Sep 23 01:21:05 4geeks-server systemd[1]: Reached target Local File Systems.
+-- Subject: A start job for unit local-fs.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit local-fs.target has finished successfully.
+-- 
+-- The job identifier is 45.
+Sep 23 01:21:05 4geeks-server systemd[1]: Starting Load AppArmor profiles...
+-- Subject: A start job for unit apparmor.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apparmor.service has begun execution.
+-- 
+-- The job identifier is 39.
+Sep 23 01:21:05 4geeks-server systemd[1]: Starting Set console font and keymap...
+-- Subject: A start job for unit console-setup.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit console-setup.service has begun execution.
+-- 
+-- The job identifier is 106.
+Sep 23 01:21:05 4geeks-server systemd[1]: Starting Create final runtime dir for shutdown pivot root...
+-- Subject: A start job for unit finalrd.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit finalrd.service has begun execution.
+-- 
+-- The job identifier is 44.
+Sep 23 01:21:05 4geeks-server systemd[1]: Condition check resulted in LXD - agent - 9p mount being skipped.
+-- Subject: A start job for unit lxd-agent-9p.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit lxd-agent-9p.service has finished successfully.
+-- 
+-- The job identifier is 130.
+Sep 23 01:21:05 4geeks-server systemd[1]: Condition check resulted in LXD - agent being skipped.
+-- Subject: A start job for unit lxd-agent.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit lxd-agent.service has finished successfully.
+-- 
+-- The job identifier is 173.
+Sep 23 01:21:05 4geeks-server systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+-- Subject: A start job for unit plymouth-read-write.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit plymouth-read-write.service has begun execution.
+-- 
+-- The job identifier is 40.
+Sep 23 01:21:05 4geeks-server systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+-- Subject: A start job for unit systemd-boot-system-token.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-boot-system-token.service has finished successfully.
+-- 
+-- The job identifier is 71.
+Sep 23 01:21:05 4geeks-server systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+-- Subject: A start job for unit systemd-machine-id-commit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-machine-id-commit.service has finished successfully.
+-- 
+-- The job identifier is 23.
+Sep 23 01:21:05 4geeks-server systemd[1]: Starting Create Volatile Files and Directories...
+-- Subject: A start job for unit systemd-tmpfiles-setup.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-tmpfiles-setup.service has begun execution.
+-- 
+-- The job identifier is 21.
+Sep 23 01:21:05 4geeks-server systemd[1]: Finished Set console font and keymap.
+-- Subject: A start job for unit console-setup.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit console-setup.service has finished successfully.
+-- 
+-- The job identifier is 106.
+Sep 23 01:21:05 4geeks-server apparmor.systemd[635]: Restarting AppArmor
+Sep 23 01:21:05 4geeks-server apparmor.systemd[635]: Reloading AppArmor profiles
+Sep 23 01:21:05 4geeks-server systemd[1]: Finished Create final runtime dir for shutdown pivot root.
+-- Subject: A start job for unit finalrd.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit finalrd.service has finished successfully.
+-- 
+-- The job identifier is 44.
+Sep 23 01:21:05 4geeks-server systemd[1]: plymouth-read-write.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit plymouth-read-write.service has successfully entered the 'dead' state.
+Sep 23 01:21:05 4geeks-server systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+-- Subject: A start job for unit plymouth-read-write.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit plymouth-read-write.service has finished successfully.
+-- 
+-- The job identifier is 40.
+Sep 23 01:21:05 4geeks-server systemd[1]: Finished Create Volatile Files and Directories.
+-- Subject: A start job for unit systemd-tmpfiles-setup.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-tmpfiles-setup.service has finished successfully.
+-- 
+-- The job identifier is 21.
+Sep 23 01:21:05 4geeks-server systemd[1]: Starting Network Time Synchronization...
+-- Subject: A start job for unit systemd-timesyncd.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-timesyncd.service has begun execution.
+-- 
+-- The job identifier is 58.
+Sep 23 01:21:05 4geeks-server systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+-- Subject: A start job for unit systemd-update-utmp.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-update-utmp.service has begun execution.
+-- 
+-- The job identifier is 149.
+Sep 23 01:21:05 4geeks-server apparmor.systemd[652]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Sep 23 01:21:05 4geeks-server systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+-- Subject: A start job for unit systemd-update-utmp.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-update-utmp.service has finished successfully.
+-- 
+-- The job identifier is 149.
+Sep 23 01:21:05 4geeks-server audit[651]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=651 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[651]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=651 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server kernel: audit: type=1400 audit(1790126465.244:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=651 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server kernel: audit: type=1400 audit(1790126465.244:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=651 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server kernel: audit: type=1400 audit(1790126465.248:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=653 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server kernel: audit: type=1400 audit(1790126465.248:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=653 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[653]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=653 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[653]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=653 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[654]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=654 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[654]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=654 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[654]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=654 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server kernel: audit: type=1400 audit(1790126465.256:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=654 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server kernel: audit: type=1400 audit(1790126465.256:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=654 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server kernel: audit: type=1400 audit(1790126465.256:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=654 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[656]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=656 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server kernel: audit: type=1400 audit(1790126465.276:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=656 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[655]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=655 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[655]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=655 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[655]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=655 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[655]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=655 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server kernel: audit: type=1400 audit(1790126465.280:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=655 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server kernel: audit: type=1400 audit(1790126465.280:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=655 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[657]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=657 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server systemd[1]: Finished Load AppArmor profiles.
+-- Subject: A start job for unit apparmor.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apparmor.service has finished successfully.
+-- 
+-- The job identifier is 39.
+Sep 23 01:21:05 4geeks-server systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+-- Subject: A start job for unit snapd.apparmor.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.apparmor.service has begun execution.
+-- 
+-- The job identifier is 126.
+Sep 23 01:21:05 4geeks-server systemd[1]: Condition check resulted in Authentication service for virtual machines hosted on VMware being skipped.
+-- Subject: A start job for unit vgauth.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit vgauth.service has finished successfully.
+-- 
+-- The job identifier is 128.
+Sep 23 01:21:05 4geeks-server systemd[1]: Condition check resulted in Service for virtual machines hosted on VMware being skipped.
+-- Subject: A start job for unit open-vm-tools.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit open-vm-tools.service has finished successfully.
+-- 
+-- The job identifier is 127.
+Sep 23 01:21:05 4geeks-server systemd[1]: Starting Initial cloud-init job (pre-networking)...
+-- Subject: A start job for unit cloud-init-local.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-init-local.service has begun execution.
+-- 
+-- The job identifier is 144.
+Sep 23 01:21:05 4geeks-server systemd[1]: Started Network Time Synchronization.
+-- Subject: A start job for unit systemd-timesyncd.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-timesyncd.service has finished successfully.
+-- 
+-- The job identifier is 58.
+Sep 23 01:21:05 4geeks-server systemd[1]: Reached target System Time Set.
+-- Subject: A start job for unit time-set.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit time-set.target has finished successfully.
+-- 
+-- The job identifier is 59.
+Sep 23 01:21:05 4geeks-server systemd[1]: Reached target System Time Synchronized.
+-- Subject: A start job for unit time-sync.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit time-sync.target has finished successfully.
+-- 
+-- The job identifier is 60.
+Sep 23 01:21:05 4geeks-server snapd-apparmor[658]: main.go:124: Loading profiles [/var/lib/snapd/apparmor/profiles/snap-confine.snapd.18357 /var/lib/snapd/apparmor/profiles/snap-update-ns.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.activate /var/lib/snapd/apparmor/profiles/snap.lxd.benchmark /var/lib/snapd/apparmor/profiles/snap.lxd.buginfo /var/lib/snapd/apparmor/profiles/snap.lxd.check-kernel /var/lib/snapd/apparmor/profiles/snap.lxd.daemon /var/lib/snapd/apparmor/profiles/snap.lxd.hook.configure /var/lib/snapd/apparmor/profiles/snap.lxd.hook.install /var/lib/snapd/apparmor/profiles/snap.lxd.hook.remove /var/lib/snapd/apparmor/profiles/snap.lxd.lxc /var/lib/snapd/apparmor/profiles/snap.lxd.lxc-to-lxd /var/lib/snapd/apparmor/profiles/snap.lxd.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.migrate]
+Sep 23 01:21:05 4geeks-server audit[668]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.lxd" pid=668 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[667]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/18357/usr/lib/snapd/snap-confine" pid=667 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[667]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/18357/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=667 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[669]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.activate" pid=669 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[670]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.benchmark" pid=670 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[671]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.buginfo" pid=671 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[672]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.check-kernel" pid=672 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[673]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.daemon" pid=673 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[674]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.configure" pid=674 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[676]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.remove" pid=676 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[675]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.install" pid=675 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[677]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxc" pid=677 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[678]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxc-to-lxd" pid=678 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[679]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxd" pid=679 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server audit[680]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.migrate" pid=680 comm="apparmor_parser"
+Sep 23 01:21:05 4geeks-server systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+-- Subject: A start job for unit snapd.apparmor.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.apparmor.service has finished successfully.
+-- 
+-- The job identifier is 126.
+Sep 23 01:21:07 4geeks-server cloud-init[684]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'init-local' at Wed, 23 Sep 2026 01:21:07 +0000. Up 12.41 seconds.
+Sep 23 01:21:07 4geeks-server systemd[1]: Finished Initial cloud-init job (pre-networking).
+-- Subject: A start job for unit cloud-init-local.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-init-local.service has finished successfully.
+-- 
+-- The job identifier is 144.
+Sep 23 01:21:07 4geeks-server systemd[1]: Reached target Network (Pre).
+-- Subject: A start job for unit network-pre.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit network-pre.target has finished successfully.
+-- 
+-- The job identifier is 145.
+Sep 23 01:21:07 4geeks-server systemd[1]: Starting Network Service...
+-- Subject: A start job for unit systemd-networkd.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-networkd.service has begun execution.
+-- 
+-- The job identifier is 29.
+Sep 23 01:21:07 4geeks-server systemd-networkd[685]: Enumeration completed
+Sep 23 01:21:07 4geeks-server systemd[1]: Started Network Service.
+-- Subject: A start job for unit systemd-networkd.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-networkd.service has finished successfully.
+-- 
+-- The job identifier is 29.
+Sep 23 01:21:07 4geeks-server systemd[1]: Starting Wait for Network to be Configured...
+-- Subject: A start job for unit systemd-networkd-wait-online.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-networkd-wait-online.service has begun execution.
+-- 
+-- The job identifier is 28.
+Sep 23 01:21:07 4geeks-server systemd[1]: Starting Network Name Resolution...
+-- Subject: A start job for unit systemd-resolved.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-resolved.service has begun execution.
+-- 
+-- The job identifier is 123.
+Sep 23 01:21:07 4geeks-server systemd-networkd[685]: enp0s3: IPv6 successfully enabled
+Sep 23 01:21:07 4geeks-server kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Sep 23 01:21:07 4geeks-server kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Sep 23 01:21:07 4geeks-server systemd-networkd[685]: enp0s3: Link UP
+Sep 23 01:21:07 4geeks-server systemd-networkd[685]: enp0s3: Gained carrier
+Sep 23 01:21:07 4geeks-server systemd-networkd[685]: enp0s3: DHCPv4 address 10.0.2.8/24 via 10.0.2.1
+Sep 23 01:21:07 4geeks-server systemd-timesyncd[649]: Network configuration changed, trying to establish connection.
+Sep 23 01:21:07 4geeks-server systemd-resolved[687]: Positive Trust Anchors:
+Sep 23 01:21:07 4geeks-server systemd-resolved[687]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Sep 23 01:21:07 4geeks-server systemd-resolved[687]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Sep 23 01:21:07 4geeks-server systemd-resolved[687]: Using system hostname '4geeks-server'.
+Sep 23 01:21:07 4geeks-server systemd[1]: Started Network Name Resolution.
+-- Subject: A start job for unit systemd-resolved.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-resolved.service has finished successfully.
+-- 
+-- The job identifier is 123.
+Sep 23 01:21:07 4geeks-server systemd[1]: Reached target Network.
+-- Subject: A start job for unit network.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit network.target has finished successfully.
+-- 
+-- The job identifier is 31.
+Sep 23 01:21:07 4geeks-server systemd[1]: Reached target Host and Network Name Lookups.
+-- Subject: A start job for unit nss-lookup.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit nss-lookup.target has finished successfully.
+-- 
+-- The job identifier is 124.
+Sep 23 01:21:08 4geeks-server systemd-networkd[685]: enp0s3: Gained IPv6LL
+Sep 23 01:21:08 4geeks-server systemd-timesyncd[649]: Network configuration changed, trying to establish connection.
+Sep 23 01:21:08 4geeks-server systemd-networkd-wait-online[686]: managing: enp0s3
+Sep 23 01:21:08 4geeks-server systemd[1]: Finished Wait for Network to be Configured.
+-- Subject: A start job for unit systemd-networkd-wait-online.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-networkd-wait-online.service has finished successfully.
+-- 
+-- The job identifier is 28.
+Sep 23 01:21:08 4geeks-server systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+-- Subject: A start job for unit cloud-init.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-init.service has begun execution.
+-- 
+-- The job identifier is 143.
+Sep 23 01:21:09 4geeks-server cloud-init[693]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'init' at Wed, 23 Sep 2026 01:21:09 +0000. Up 14.36 seconds.
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: | enp0s3 | True |           10.0.2.8          | 255.255.255.0 | global | 08:00:27:eb:3e:94 |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: | enp0s3 | True | fe80::a00:27ff:feeb:3e94/64 |       .       |  link  | 08:00:27:eb:3e:94 |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: |   0   |   0.0.0.0   | 10.0.2.1 |     0.0.0.0     |   enp0s3  |   UG  |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: |   1   |   10.0.2.0  | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: |   2   |   10.0.2.1  | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: +-------+-------------+---------+-----------+-------+
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: +-------+-------------+---------+-----------+-------+
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+Sep 23 01:21:09 4geeks-server cloud-init[693]: ci-info: +-------+-------------+---------+-----------+-------+
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished Initial cloud-init job (metadata service crawler).
+-- Subject: A start job for unit cloud-init.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-init.service has finished successfully.
+-- 
+-- The job identifier is 143.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target Cloud-config availability.
+-- Subject: A start job for unit cloud-config.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-config.target has finished successfully.
+-- 
+-- The job identifier is 142.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target Network is Online.
+-- Subject: A start job for unit network-online.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit network-online.target has finished successfully.
+-- 
+-- The job identifier is 27.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target System Initialization.
+-- Subject: A start job for unit sysinit.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit sysinit.target has finished successfully.
+-- 
+-- The job identifier is 4.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+-- Subject: A start job for unit apport-autoreport.path has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apport-autoreport.path has finished successfully.
+-- 
+-- The job identifier is 104.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Daily apt download activities.
+-- Subject: A start job for unit apt-daily.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-daily.timer has finished successfully.
+-- 
+-- The job identifier is 94.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Daily apt upgrade and clean activities.
+-- Subject: A start job for unit apt-daily-upgrade.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apt-daily-upgrade.timer has finished successfully.
+-- 
+-- The job identifier is 99.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+-- Subject: A start job for unit e2scrub_all.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit e2scrub_all.timer has finished successfully.
+-- 
+-- The job identifier is 102.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Discard unused blocks once a week.
+-- Subject: A start job for unit fstrim.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit fstrim.timer has finished successfully.
+-- 
+-- The job identifier is 92.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Refresh fwupd metadata regularly.
+-- Subject: A start job for unit fwupd-refresh.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit fwupd-refresh.timer has finished successfully.
+-- 
+-- The job identifier is 97.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Daily rotation of log files.
+-- Subject: A start job for unit logrotate.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit logrotate.timer has finished successfully.
+-- 
+-- The job identifier is 93.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Daily man-db regeneration.
+-- Subject: A start job for unit man-db.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit man-db.timer has finished successfully.
+-- 
+-- The job identifier is 95.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Message of the Day.
+-- Subject: A start job for unit motd-news.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit motd-news.timer has finished successfully.
+-- 
+-- The job identifier is 100.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+-- Subject: A start job for unit snapd.snap-repair.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.snap-repair.timer has finished successfully.
+-- 
+-- The job identifier is 96.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Daily Cleanup of Temporary Directories.
+-- Subject: A start job for unit systemd-tmpfiles-clean.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-tmpfiles-clean.timer has finished successfully.
+-- 
+-- The job identifier is 101.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Ubuntu Advantage Timer for running repeated jobs.
+-- Subject: A start job for unit ua-timer.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit ua-timer.timer has finished successfully.
+-- 
+-- The job identifier is 98.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target Paths.
+-- Subject: A start job for unit paths.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit paths.target has finished successfully.
+-- 
+-- The job identifier is 103.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target Timers.
+-- Subject: A start job for unit timers.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit timers.target has finished successfully.
+-- 
+-- The job identifier is 91.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+-- Subject: A start job for unit apport-forward.socket has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apport-forward.socket has finished successfully.
+-- 
+-- The job identifier is 80.
+Sep 23 01:21:09 4geeks-server systemd[1]: Listening on cloud-init hotplug hook socket.
+-- Subject: A start job for unit cloud-init-hotplugd.socket has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-init-hotplugd.socket has finished successfully.
+-- 
+-- The job identifier is 146.
+Sep 23 01:21:09 4geeks-server systemd[1]: Listening on D-Bus System Message Bus Socket.
+-- Subject: A start job for unit dbus.socket has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit dbus.socket has finished successfully.
+-- 
+-- The job identifier is 82.
+Sep 23 01:21:09 4geeks-server systemd[1]: Listening on Open-iSCSI iscsid Socket.
+-- Subject: A start job for unit iscsid.socket has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit iscsid.socket has finished successfully.
+-- 
+-- The job identifier is 81.
+Sep 23 01:21:09 4geeks-server systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+-- Subject: A start job for unit snap.lxd.daemon.unix.socket has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.lxd.daemon.unix.socket has finished successfully.
+-- 
+-- The job identifier is 88.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Socket activation for snappy daemon.
+-- Subject: A start job for unit snapd.socket has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.socket has begun execution.
+-- 
+-- The job identifier is 85.
+Sep 23 01:21:09 4geeks-server systemd[1]: Listening on UUID daemon activation socket.
+-- Subject: A start job for unit uuidd.socket has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit uuidd.socket has finished successfully.
+-- 
+-- The job identifier is 83.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Login to default iSCSI targets being skipped.
+-- Subject: A start job for unit open-iscsi.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit open-iscsi.service has finished successfully.
+-- 
+-- The job identifier is 25.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target Remote File Systems (Pre).
+-- Subject: A start job for unit remote-fs-pre.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit remote-fs-pre.target has finished successfully.
+-- 
+-- The job identifier is 26.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target Remote File Systems.
+-- Subject: A start job for unit remote-fs.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit remote-fs.target has finished successfully.
+-- 
+-- The job identifier is 164.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Availability of block devices...
+-- Subject: A start job for unit blk-availability.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit blk-availability.service has begun execution.
+-- 
+-- The job identifier is 43.
+Sep 23 01:21:09 4geeks-server systemd[1]: Listening on Socket activation for snappy daemon.
+-- Subject: A start job for unit snapd.socket has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.socket has finished successfully.
+-- 
+-- The job identifier is 85.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target Sockets.
+-- Subject: A start job for unit sockets.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit sockets.target has finished successfully.
+-- 
+-- The job identifier is 79.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target Basic System.
+-- Subject: A start job for unit basic.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit basic.target has finished successfully.
+-- 
+-- The job identifier is 3.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Accounts Service...
+-- Subject: A start job for unit accounts-daemon.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit accounts-daemon.service has begun execution.
+-- 
+-- The job identifier is 174.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 132.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting LSB: automatic crash report generation...
+-- Subject: A start job for unit apport.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apport.service has begun execution.
+-- 
+-- The job identifier is 167.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Deferred execution scheduler...
+-- Subject: A start job for unit atd.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit atd.service has begun execution.
+-- 
+-- The job identifier is 129.
+Sep 23 01:21:09 4geeks-server cron[706]: (CRON) INFO (pidfile fd = 3)
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Regular background program processing daemon.
+-- Subject: A start job for unit cron.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cron.service has finished successfully.
+-- 
+-- The job identifier is 138.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started D-Bus System Message Bus.
+-- Subject: A start job for unit dbus.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit dbus.service has finished successfully.
+-- 
+-- The job identifier is 165.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Save initial kernel messages after boot.
+-- Subject: A start job for unit dmesg.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit dmesg.service has finished successfully.
+-- 
+-- The job identifier is 153.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+-- Subject: A start job for unit e2scrub_reap.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit e2scrub_reap.service has begun execution.
+-- 
+-- The job identifier is 176.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+-- Subject: A start job for unit fstrim.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit fstrim.service has begun execution.
+-- 
+-- The job identifier is 271.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+-- Subject: A start job for unit getty-static.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit getty-static.service has finished successfully.
+-- 
+-- The job identifier is 159.
+Sep 23 01:21:09 4geeks-server cron[706]: (CRON) INFO (Running @reboot jobs)
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Record successful boot for GRUB...
+-- Subject: A start job for unit grub-common.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit grub-common.service has begun execution.
+-- 
+-- The job identifier is 131.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started irqbalance daemon.
+-- Subject: A start job for unit irqbalance.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit irqbalance.service has finished successfully.
+-- 
+-- The job identifier is 135.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+-- Subject: A start job for unit networkd-dispatcher.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit networkd-dispatcher.service has begun execution.
+-- 
+-- The job identifier is 121.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Set the CPU Frequency Scaling governor being skipped.
+-- Subject: A start job for unit ondemand.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit ondemand.service has finished successfully.
+-- 
+-- The job identifier is 139.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Authorization Manager...
+-- Subject: A start job for unit polkit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit polkit.service has begun execution.
+-- 
+-- The job identifier is 161.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Pollinate to seed the pseudo random number generator being skipped.
+-- Subject: A start job for unit pollinate.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit pollinate.service has finished successfully.
+-- 
+-- The job identifier is 162.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+-- Subject: A start job for unit rsync.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit rsync.service has finished successfully.
+-- 
+-- The job identifier is 112.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting System Logging Service...
+-- Subject: A start job for unit rsyslog.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit rsyslog.service has begun execution.
+-- 
+-- The job identifier is 107.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Secure Boot updates for DB and DBX being skipped.
+-- Subject: A start job for unit secureboot-db.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit secureboot-db.service has finished successfully.
+-- 
+-- The job identifier is 172.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Service for snap application lxd.activate...
+-- Subject: A start job for unit snap.lxd.activate.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.lxd.activate.service has begun execution.
+-- 
+-- The job identifier is 125.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+-- Subject: A start job for unit snapd.core-fixup.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.core-fixup.service has finished successfully.
+-- 
+-- The job identifier is 171.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+-- Subject: A start job for unit snapd.recovery-chooser-trigger.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.recovery-chooser-trigger.service has finished successfully.
+-- 
+-- The job identifier is 151.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target Login Prompts (Pre).
+-- Subject: A start job for unit getty-pre.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit getty-pre.target has finished successfully.
+-- 
+-- The job identifier is 152.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Wait until snapd is fully seeded...
+-- Subject: A start job for unit snapd.seeded.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.seeded.service has begun execution.
+-- 
+-- The job identifier is 137.
+Sep 23 01:21:09 4geeks-server dbus-daemon[707]: dbus[707]: Unknown group "power" in message bus configuration file
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Snap Daemon...
+-- Subject: A start job for unit snapd.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.service has begun execution.
+-- 
+-- The job identifier is 113.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting OpenBSD Secure Shell server...
+-- Subject: A start job for unit ssh.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit ssh.service has begun execution.
+-- 
+-- The job identifier is 111.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Login Service...
+-- Subject: A start job for unit systemd-logind.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-logind.service has begun execution.
+-- 
+-- The job identifier is 168.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Permit User Sessions...
+-- Subject: A start job for unit systemd-user-sessions.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-user-sessions.service has begun execution.
+-- 
+-- The job identifier is 133.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Thermal Daemon Service being skipped.
+-- Subject: A start job for unit thermald.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit thermald.service has finished successfully.
+-- 
+-- The job identifier is 110.
+Sep 23 01:21:09 4geeks-server systemd[1]: Condition check resulted in Ubuntu Advantage reboot cmds being skipped.
+-- Subject: A start job for unit ua-reboot-cmds.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit ua-reboot-cmds.service has finished successfully.
+-- 
+-- The job identifier is 120.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Disk Manager...
+-- Subject: A start job for unit udisks2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit udisks2.service has begun execution.
+-- 
+-- The job identifier is 177.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting vsftpd FTP server...
+-- Subject: A start job for unit vsftpd.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit vsftpd.service has begun execution.
+-- 
+-- The job identifier is 150.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Wazuh agent...
+-- Subject: A start job for unit wazuh-agent.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit wazuh-agent.service has begun execution.
+-- 
+-- The job identifier is 105.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Rotate log files...
+-- Subject: A start job for unit logrotate.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit logrotate.service has begun execution.
+-- 
+-- The job identifier is 195.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Daily man-db regeneration...
+-- Subject: A start job for unit man-db.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit man-db.service has begun execution.
+-- 
+-- The job identifier is 347.
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished Availability of block devices.
+-- Subject: A start job for unit blk-availability.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit blk-availability.service has finished successfully.
+-- 
+-- The job identifier is 43.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Deferred execution scheduler.
+-- Subject: A start job for unit atd.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit atd.service has finished successfully.
+-- 
+-- The job identifier is 129.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started vsftpd FTP server.
+-- Subject: A start job for unit vsftpd.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit vsftpd.service has finished successfully.
+-- 
+-- The job identifier is 150.
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished Permit User Sessions.
+-- Subject: A start job for unit systemd-user-sessions.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-user-sessions.service has finished successfully.
+-- 
+-- The job identifier is 133.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Hold until boot process finishes up...
+-- Subject: A start job for unit plymouth-quit-wait.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit plymouth-quit-wait.service has begun execution.
+-- 
+-- The job identifier is 122.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Terminate Plymouth Boot Screen...
+-- Subject: A start job for unit plymouth-quit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit plymouth-quit.service has begun execution.
+-- 
+-- The job identifier is 134.
+Sep 23 01:21:09 4geeks-server systemd[1]: plymouth-quit-wait.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit plymouth-quit-wait.service has successfully entered the 'dead' state.
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished Hold until boot process finishes up.
+-- Subject: A start job for unit plymouth-quit-wait.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit plymouth-quit-wait.service has finished successfully.
+-- 
+-- The job identifier is 122.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Set console scheme...
+-- Subject: A start job for unit setvtrgb.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit setvtrgb.service has begun execution.
+-- 
+-- The job identifier is 52.
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished Set console scheme.
+-- Subject: A start job for unit setvtrgb.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit setvtrgb.service has finished successfully.
+-- 
+-- The job identifier is 52.
+Sep 23 01:21:09 4geeks-server systemd[1]: Created slice system-getty.slice.
+-- Subject: A start job for unit system-getty.slice has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit system-getty.slice has finished successfully.
+-- 
+-- The job identifier is 156.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Getty on tty1.
+-- Subject: A start job for unit getty@tty1.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit getty@tty1.service has finished successfully.
+-- 
+-- The job identifier is 155.
+Sep 23 01:21:09 4geeks-server systemd[1]: Reached target Login Prompts.
+-- Subject: A start job for unit getty.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit getty.target has finished successfully.
+-- 
+-- The job identifier is 154.
+Sep 23 01:21:09 4geeks-server udisksd[735]: udisks daemon version 2.8.4 starting
+Sep 23 01:21:09 4geeks-server systemd[1]: plymouth-quit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit plymouth-quit.service has successfully entered the 'dead' state.
+Sep 23 01:21:09 4geeks-server dbus-daemon[707]: [system] AppArmor D-Bus mediation is enabled
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished Terminate Plymouth Boot Screen.
+-- Subject: A start job for unit plymouth-quit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit plymouth-quit.service has finished successfully.
+-- 
+-- The job identifier is 134.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started System Logging Service.
+-- Subject: A start job for unit rsyslog.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit rsyslog.service has finished successfully.
+-- 
+-- The job identifier is 107.
+Sep 23 01:21:09 4geeks-server rsyslogd[718]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Sep 23 01:21:09 4geeks-server rsyslogd[718]: rsyslogd's groupid changed to 110
+Sep 23 01:21:09 4geeks-server rsyslogd[718]: rsyslogd's userid changed to 104
+Sep 23 01:21:09 4geeks-server rsyslogd[718]: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="718" x-info="https://www.rsyslog.com"] start
+Sep 23 01:21:09 4geeks-server polkitd[717]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Sep 23 01:21:09 4geeks-server systemd[1]: logrotate.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit logrotate.service has successfully entered the 'dead' state.
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished Rotate log files.
+-- Subject: A start job for unit logrotate.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit logrotate.service has finished successfully.
+-- 
+-- The job identifier is 195.
+Sep 23 01:21:09 4geeks-server apport[701]:  * Starting automatic crash report generation: apport
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Authorization Manager.
+-- Subject: A start job for unit polkit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit polkit.service has finished successfully.
+-- 
+-- The job identifier is 161.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting Modem Manager...
+-- Subject: A start job for unit ModemManager.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit ModemManager.service has begun execution.
+-- 
+-- The job identifier is 160.
+Sep 23 01:21:09 4geeks-server systemd[1]: fstrim.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit fstrim.service has successfully entered the 'dead' state.
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+-- Subject: A start job for unit fstrim.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit fstrim.service has finished successfully.
+-- 
+-- The job identifier is 271.
+Sep 23 01:21:09 4geeks-server sshd[789]: Server listening on 0.0.0.0 port 22.
+Sep 23 01:21:09 4geeks-server sshd[789]: Server listening on :: port 22.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started OpenBSD Secure Shell server.
+-- Subject: A start job for unit ssh.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit ssh.service has finished successfully.
+-- 
+-- The job identifier is 111.
+Sep 23 01:21:09 4geeks-server apport[701]:    ...done.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started LSB: automatic crash report generation.
+-- Subject: A start job for unit apport.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apport.service has finished successfully.
+-- 
+-- The job identifier is 167.
+Sep 23 01:21:09 4geeks-server systemd[1]: e2scrub_reap.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit e2scrub_reap.service has successfully entered the 'dead' state.
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+-- Subject: A start job for unit e2scrub_reap.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit e2scrub_reap.service has finished successfully.
+-- 
+-- The job identifier is 176.
+Sep 23 01:21:09 4geeks-server udisksd[735]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Sep 23 01:21:09 4geeks-server systemd-logind[730]: New seat seat0.
+-- Subject: A new seat seat0 is now available
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new seat seat0 has been configured and is now available.
+Sep 23 01:21:09 4geeks-server systemd-logind[730]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 23 01:21:09 4geeks-server systemd-logind[730]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Sep 23 01:21:09 4geeks-server systemd[1]: grub-common.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit grub-common.service has successfully entered the 'dead' state.
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished Record successful boot for GRUB.
+-- Subject: A start job for unit grub-common.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit grub-common.service has finished successfully.
+-- 
+-- The job identifier is 131.
+Sep 23 01:21:09 4geeks-server systemd-logind[730]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Login Service.
+-- Subject: A start job for unit systemd-logind.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-logind.service has finished successfully.
+-- 
+-- The job identifier is 168.
+Sep 23 01:21:09 4geeks-server systemd[1]: Starting GRUB failed boot detection...
+-- Subject: A start job for unit grub-initrd-fallback.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit grub-initrd-fallback.service has begun execution.
+-- 
+-- The job identifier is 119.
+Sep 23 01:21:09 4geeks-server systemd[1]: Started Unattended Upgrades Shutdown.
+-- Subject: A start job for unit unattended-upgrades.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit unattended-upgrades.service has finished successfully.
+-- 
+-- The job identifier is 163.
+Sep 23 01:21:09 4geeks-server systemd[1]: tmp-snap.rootfs_adZSXB.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit tmp-snap.rootfs_adZSXB.mount has successfully entered the 'dead' state.
+Sep 23 01:21:09 4geeks-server systemd[1]: grub-initrd-fallback.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit grub-initrd-fallback.service has successfully entered the 'dead' state.
+Sep 23 01:21:09 4geeks-server systemd[1]: Finished GRUB failed boot detection.
+-- Subject: A start job for unit grub-initrd-fallback.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit grub-initrd-fallback.service has finished successfully.
+-- 
+-- The job identifier is 119.
+Sep 23 01:21:10 4geeks-server udisksd[735]: Failed to load the 'mdraid' libblockdev plugin
+Sep 23 01:21:10 4geeks-server networkd-dispatcher[716]: No valid path found for iwconfig
+Sep 23 01:21:10 4geeks-server ModemManager[788]: <info>  ModemManager (version 1.18.6) starting in system bus...
+Sep 23 01:21:10 4geeks-server systemd[1]: Started Dispatcher daemon for systemd-networkd.
+-- Subject: A start job for unit networkd-dispatcher.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit networkd-dispatcher.service has finished successfully.
+-- 
+-- The job identifier is 121.
+Sep 23 01:21:10 4geeks-server env[737]: Starting Wazuh v4.12.0...
+Sep 23 01:21:10 4geeks-server accounts-daemon[699]: started daemon version 0.6.55
+Sep 23 01:21:10 4geeks-server systemd[1]: Started Accounts Service.
+-- Subject: A start job for unit accounts-daemon.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit accounts-daemon.service has finished successfully.
+-- 
+-- The job identifier is 174.
+Sep 23 01:21:10 4geeks-server apachectl[762]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Sep 23 01:21:10 4geeks-server systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 132.
+Sep 23 01:21:10 4geeks-server systemd[1]: Started Modem Manager.
+-- Subject: A start job for unit ModemManager.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit ModemManager.service has finished successfully.
+-- 
+-- The job identifier is 160.
+Sep 23 01:21:10 4geeks-server systemd[1]: Started Disk Manager.
+-- Subject: A start job for unit udisks2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit udisks2.service has finished successfully.
+-- 
+-- The job identifier is 177.
+Sep 23 01:21:10 4geeks-server udisksd[735]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Sep 23 01:21:10 4geeks-server snapd[723]: overlord.go:271: Acquiring state lock file
+Sep 23 01:21:10 4geeks-server snapd[723]: overlord.go:276: Acquired state lock file
+Sep 23 01:21:10 4geeks-server snapd[723]: daemon.go:247: started snapd/2.63+20.04ubuntu0.1 (series 16; classic) ubuntu/20.04 (amd64) linux/5.4.0-216-generic.
+Sep 23 01:21:10 4geeks-server systemd[1]: tmp-syscheck\x2dmountpoint\x2d1129157532.mount: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit tmp-syscheck\x2dmountpoint\x2d1129157532.mount has successfully entered the 'dead' state.
+Sep 23 01:21:10 4geeks-server snapd[723]: daemon.go:340: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Sep 23 01:21:10 4geeks-server snapd[723]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+Sep 23 01:21:10 4geeks-server lxd.activate[720]: => Starting LXD activation
+Sep 23 01:21:10 4geeks-server lxd.activate[720]: ==> Loading snap configuration
+Sep 23 01:21:10 4geeks-server lxd.activate[720]: ==> Checking for socket activation support
+Sep 23 01:21:11 4geeks-server systemd[1]: man-db.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit man-db.service has successfully entered the 'dead' state.
+Sep 23 01:21:11 4geeks-server systemd[1]: Finished Daily man-db regeneration.
+-- Subject: A start job for unit man-db.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit man-db.service has finished successfully.
+-- 
+-- The job identifier is 347.
+Sep 23 01:21:11 4geeks-server audit[948]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=948 comm="apparmor_parser"
+Sep 23 01:21:11 4geeks-server kernel: kauditd_printk_skb: 18 callbacks suppressed
+Sep 23 01:21:11 4geeks-server kernel: audit: type=1400 audit(1790126471.112:30): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=948 comm="apparmor_parser"
+Sep 23 01:21:11 4geeks-server audit[948]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=948 comm="apparmor_parser"
+Sep 23 01:21:11 4geeks-server kernel: audit: type=1400 audit(1790126471.136:31): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=948 comm="apparmor_parser"
+Sep 23 01:21:11 4geeks-server systemd[1]: Started Snap Daemon.
+-- Subject: A start job for unit snapd.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.service has finished successfully.
+-- 
+-- The job identifier is 113.
+Sep 23 01:21:11 4geeks-server dbus-daemon[707]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=723 comm="/usr/lib/snapd/snapd " label="unconfined")
+Sep 23 01:21:11 4geeks-server systemd[1]: Starting Time & Date Service...
+-- Subject: A start job for unit systemd-timedated.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-timedated.service has begun execution.
+-- 
+-- The job identifier is 423.
+Sep 23 01:21:11 4geeks-server dbus-daemon[707]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Sep 23 01:21:11 4geeks-server systemd[1]: Started Time & Date Service.
+-- Subject: A start job for unit systemd-timedated.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-timedated.service has finished successfully.
+-- 
+-- The job identifier is 423.
+Sep 23 01:21:11 4geeks-server systemd[1]: Finished Wait until snapd is fully seeded.
+-- Subject: A start job for unit snapd.seeded.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.seeded.service has finished successfully.
+-- 
+-- The job identifier is 137.
+Sep 23 01:21:11 4geeks-server systemd[1]: Starting Apply the settings specified in cloud-config...
+-- Subject: A start job for unit cloud-config.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-config.service has begun execution.
+-- 
+-- The job identifier is 141.
+Sep 23 01:21:11 4geeks-server systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+-- Subject: A start job for unit snapd.autoimport.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snapd.autoimport.service has finished successfully.
+-- 
+-- The job identifier is 136.
+Sep 23 01:21:11 4geeks-server lxd.activate[720]: ==> Setting LXD socket ownership
+Sep 23 01:21:11 4geeks-server lxd.activate[720]: ==> LXD never started on this system, no need to start it now
+Sep 23 01:21:11 4geeks-server systemd[1]: snap.lxd.activate.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit snap.lxd.activate.service has successfully entered the 'dead' state.
+Sep 23 01:21:11 4geeks-server systemd[1]: Finished Service for snap application lxd.activate.
+-- Subject: A start job for unit snap.lxd.activate.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.lxd.activate.service has finished successfully.
+-- 
+-- The job identifier is 125.
+Sep 23 01:21:11 4geeks-server env[737]: Started wazuh-execd...
+Sep 23 01:21:11 4geeks-server cloud-init[994]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'modules:config' at Wed, 23 Sep 2026 01:21:11 +0000. Up 17.13 seconds.
+Sep 23 01:21:11 4geeks-server systemd[1]: Finished Apply the settings specified in cloud-config.
+-- Subject: A start job for unit cloud-config.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-config.service has finished successfully.
+-- 
+-- The job identifier is 141.
+Sep 23 01:21:11 4geeks-server systemd[1]: Condition check resulted in Ubuntu Pro Background Auto Attach being skipped.
+-- Subject: A start job for unit ubuntu-advantage.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit ubuntu-advantage.service has finished successfully.
+-- 
+-- The job identifier is 166.
+Sep 23 01:21:12 4geeks-server env[737]: Started wazuh-agentd...
+Sep 23 01:21:13 4geeks-server ModemManager[788]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 23 01:21:13 4geeks-server env[737]: Started wazuh-syscheckd...
+Sep 23 01:21:14 4geeks-server env[737]: Started wazuh-logcollector...
+Sep 23 01:21:14 4geeks-server systemd[1]: dmesg.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit dmesg.service has successfully entered the 'dead' state.
+Sep 23 01:21:15 4geeks-server env[737]: Started wazuh-modulesd...
+Sep 23 01:21:17 4geeks-server env[737]: Completed.
+Sep 23 01:21:17 4geeks-server systemd[1]: Started Wazuh agent.
+-- Subject: A start job for unit wazuh-agent.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit wazuh-agent.service has finished successfully.
+-- 
+-- The job identifier is 105.
+Sep 23 01:21:17 4geeks-server systemd[1]: Reached target Multi-User System.
+-- Subject: A start job for unit multi-user.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit multi-user.target has finished successfully.
+-- 
+-- The job identifier is 2.
+Sep 23 01:21:17 4geeks-server systemd[1]: Reached target Graphical Interface.
+-- Subject: A start job for unit graphical.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit graphical.target has finished successfully.
+-- 
+-- The job identifier is 1.
+Sep 23 01:21:17 4geeks-server systemd[1]: Starting Execute cloud user/final scripts...
+-- Subject: A start job for unit cloud-final.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-final.service has begun execution.
+-- 
+-- The job identifier is 147.
+Sep 23 01:21:17 4geeks-server systemd[1]: Starting Update UTMP about System Runlevel Changes...
+-- Subject: A start job for unit systemd-update-utmp-runlevel.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-update-utmp-runlevel.service has begun execution.
+-- 
+-- The job identifier is 148.
+Sep 23 01:21:17 4geeks-server systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit systemd-update-utmp-runlevel.service has successfully entered the 'dead' state.
+Sep 23 01:21:17 4geeks-server systemd[1]: Finished Update UTMP about System Runlevel Changes.
+-- Subject: A start job for unit systemd-update-utmp-runlevel.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit systemd-update-utmp-runlevel.service has finished successfully.
+-- 
+-- The job identifier is 148.
+Sep 23 01:21:18 4geeks-server cloud-init[1567]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 running 'modules:final' at Wed, 23 Sep 2026 01:21:17 +0000. Up 23.32 seconds.
+Sep 23 01:21:18 4geeks-server cloud-init[1567]: Cloud-init v. 23.1.2-0ubuntu0~20.04.2 finished at Wed, 23 Sep 2026 01:21:18 +0000. Datasource DataSourceNone.  Up 23.48 seconds
+Sep 23 01:21:18 4geeks-server cloud-init[1567]: 2026-09-23 01:21:18,127 - cc_final_message.py[WARNING]: Used fallback datasource
+Sep 23 01:21:18 4geeks-server systemd[1]: Finished Execute cloud user/final scripts.
+-- Subject: A start job for unit cloud-final.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-final.service has finished successfully.
+-- 
+-- The job identifier is 147.
+Sep 23 01:21:18 4geeks-server systemd[1]: Reached target Cloud-init target.
+-- Subject: A start job for unit cloud-init.target has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit cloud-init.target has finished successfully.
+-- 
+-- The job identifier is 140.
+Sep 23 01:21:18 4geeks-server systemd[1]: Startup finished in 7.532s (kernel) + 16.031s (userspace) = 23.564s.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- All system services necessary queued for starting at boot have been
+-- started. Note that this does not mean that the machine is now idle as services
+-- might still be busy with completing start-up.
+-- 
+-- Kernel start-up required 7532900 microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 16031472 microseconds.
+Sep 23 01:21:41 4geeks-server systemd-timesyncd[649]: Initial synchronization to time server 185.125.190.58:123 (ntp.ubuntu.com).
+Sep 23 01:21:41 4geeks-server systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+-- Subject: A start job for unit e2scrub_all.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit e2scrub_all.service has begun execution.
+-- 
+-- The job identifier is 500.
+Sep 23 01:21:41 4geeks-server systemd[1]: e2scrub_all.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit e2scrub_all.service has successfully entered the 'dead' state.
+Sep 23 01:21:41 4geeks-server systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+-- Subject: A start job for unit e2scrub_all.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit e2scrub_all.service has finished successfully.
+-- 
+-- The job identifier is 500.
+Sep 23 01:21:45 4geeks-server systemd[1]: systemd-timedated.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit systemd-timedated.service has successfully entered the 'dead' state.
+Sep 23 01:21:56 4geeks-server sshd[1594]: Accepted password for sysadmin from 10.0.2.15 port 59846 ssh2
+Sep 23 01:21:56 4geeks-server sshd[1594]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Sep 23 01:21:56 4geeks-server systemd[1]: Created slice User Slice of UID 1000.
+-- Subject: A start job for unit user-1000.slice has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user-1000.slice has finished successfully.
+-- 
+-- The job identifier is 653.
+Sep 23 01:21:56 4geeks-server systemd[1]: Starting User Runtime Directory /run/user/1000...
+-- Subject: A start job for unit user-runtime-dir@1000.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user-runtime-dir@1000.service has begun execution.
+-- 
+-- The job identifier is 652.
+Sep 23 01:21:56 4geeks-server systemd-logind[730]: New session 1 of user sysadmin.
+-- Subject: A new session 1 has been created for user sysadmin
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 1 has been created for the user sysadmin.
+-- 
+-- The leading process of the session is 1594.
+Sep 23 01:21:56 4geeks-server systemd[1]: Finished User Runtime Directory /run/user/1000.
+-- Subject: A start job for unit user-runtime-dir@1000.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user-runtime-dir@1000.service has finished successfully.
+-- 
+-- The job identifier is 652.
+Sep 23 01:21:56 4geeks-server systemd[1]: Starting User Manager for UID 1000...
+-- Subject: A start job for unit user@1000.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user@1000.service has begun execution.
+-- 
+-- The job identifier is 576.
+Sep 23 01:21:56 4geeks-server systemd[1606]: pam_unix(systemd-user:session): session opened for user sysadmin by (uid=0)
+Sep 23 01:21:56 4geeks-server systemd[1606]: Reached target Paths.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 17.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Reached target Timers.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 16.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Starting D-Bus User Message Bus Socket.
+-- Subject: A start job for unit UNIT has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has begun execution.
+-- 
+-- The job identifier is 10.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Listening on GnuPG network certificate management daemon.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 9.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 13.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 11.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 14.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Listening on GnuPG cryptographic agent and passphrase cache.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 6.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Listening on debconf communication socket.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 15.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Listening on REST API socket for snapd user session agent.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 12.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Listening on D-Bus User Message Bus Socket.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 10.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Reached target Sockets.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 5.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Reached target Basic System.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 4.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Reached target Main User Target.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 3.
+Sep 23 01:21:56 4geeks-server systemd[1606]: Startup finished in 125ms.
+-- Subject: User manager start-up is now complete
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The user manager instance for user 1000 has been started. All services queued
+-- for starting have been started. Note that other services might still be starting
+-- up or be started at any later time.
+-- 
+-- Startup of the manager took 125085 microseconds.
+Sep 23 01:21:56 4geeks-server systemd[1]: Started User Manager for UID 1000.
+-- Subject: A start job for unit user@1000.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit user@1000.service has finished successfully.
+-- 
+-- The job identifier is 576.
+Sep 23 01:21:56 4geeks-server systemd[1]: Started Session 1 of user sysadmin.
+-- Subject: A start job for unit session-1.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-1.scope has finished successfully.
+-- 
+-- The job identifier is 655.
+Sep 23 01:21:58 4geeks-server crontab[1737]: (sysadmin) LIST (sysadmin)

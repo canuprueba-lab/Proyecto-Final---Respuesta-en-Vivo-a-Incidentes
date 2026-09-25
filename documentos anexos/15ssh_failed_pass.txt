@@ -1,0 +1,55 @@
+Jun 21 19:04:11 4geeks-server sshd[958]: Server listening on 0.0.0.0 port 22.
+Jun 21 19:04:11 4geeks-server sshd[958]: Server listening on :: port 22.
+Jun 21 19:04:27 4geeks-server sshd[958]: Received signal 15; terminating.
+Jun 21 19:04:27 4geeks-server sshd[1632]: Server listening on 0.0.0.0 port 22.
+Jun 21 19:04:27 4geeks-server sshd[1632]: Server listening on :: port 22.
+Jun 21 19:38:19 4geeks-server sshd[2001]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.50  user=root
+Jun 21 19:38:20 4geeks-server sshd[2001]: Failed password for root from 192.168.1.50 port 40230 ssh2
+Jun 21 19:38:26 4geeks-server sshd[2001]: Connection closed by authenticating user root 192.168.1.50 port 40230 [preauth]
+Jun 21 19:38:47 4geeks-server sshd[2011]: Accepted password for sysadmin from 192.168.1.50 port 47936 ssh2
+Jun 21 19:38:47 4geeks-server sshd[2011]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)
+Jun 21 19:38:48 4geeks-server sshd[2106]: Received disconnect from 192.168.1.50 port 47936:11: disconnected by user
+Jun 21 19:38:48 4geeks-server sshd[2106]: Disconnected from user sysadmin 192.168.1.50 port 47936
+Jun 21 19:38:48 4geeks-server sshd[2011]: pam_unix(sshd:session): session closed for user sysadmin
+Jun 23 12:55:30 4geeks-server sshd[814]: Server listening on 0.0.0.0 port 22.
+Jun 23 12:55:30 4geeks-server sshd[814]: Server listening on :: port 22.
+Jun 23 14:50:29 4geeks-server sshd[819]: Server listening on 0.0.0.0 port 22.
+Jun 23 14:50:29 4geeks-server sshd[819]: Server listening on :: port 22.
+Jun 23 15:23:17 4geeks-server sshd[786]: Server listening on 0.0.0.0 port 22.
+Jun 23 15:23:17 4geeks-server sshd[786]: Server listening on :: port 22.
+Jun 23 15:26:47 4geeks-server sshd[1736]: Invalid user test from 192.168.1.103 port 58760
+Jun 23 15:26:50 4geeks-server sshd[1736]: pam_unix(sshd:auth): check pass; user unknown
+Jun 23 15:26:50 4geeks-server sshd[1736]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.103 
+Jun 23 15:26:52 4geeks-server sshd[1736]: Failed password for invalid user test from 192.168.1.103 port 58760 ssh2
+Jun 23 15:26:59 4geeks-server sshd[1736]: pam_unix(sshd:auth): check pass; user unknown
+Jun 23 15:27:01 4geeks-server sshd[1736]: Failed password for invalid user test from 192.168.1.103 port 58760 ssh2
+Jun 23 15:27:05 4geeks-server sshd[1736]: pam_unix(sshd:auth): check pass; user unknown
+Jun 23 15:27:07 4geeks-server sshd[1736]: Failed password for invalid user test from 192.168.1.103 port 58760 ssh2
+Jun 23 15:27:08 4geeks-server sshd[1736]: Connection closed by invalid user test 192.168.1.103 port 58760 [preauth]
+Jun 23 15:27:08 4geeks-server sshd[1736]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.103 
+Jun 23 15:27:24 4geeks-server sshd[1747]: Invalid user admin from 192.168.1.103 port 49542
+Jun 23 15:27:27 4geeks-server sshd[1747]: pam_unix(sshd:auth): check pass; user unknown
+Jun 23 15:27:27 4geeks-server sshd[1747]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.103 
+Jun 23 15:27:28 4geeks-server sshd[1747]: Failed password for invalid user admin from 192.168.1.103 port 49542 ssh2
+Jun 23 15:27:30 4geeks-server sshd[1747]: pam_unix(sshd:auth): check pass; user unknown
+Jun 23 15:27:32 4geeks-server sshd[1747]: Failed password for invalid user admin from 192.168.1.103 port 49542 ssh2
+Jun 23 15:27:35 4geeks-server sshd[1747]: pam_unix(sshd:auth): check pass; user unknown
+Jun 23 15:27:37 4geeks-server sshd[1747]: Failed password for invalid user admin from 192.168.1.103 port 49542 ssh2
+Jun 23 15:27:39 4geeks-server sshd[1747]: Connection closed by invalid user admin 192.168.1.103 port 49542 [preauth]
+Jun 23 15:27:39 4geeks-server sshd[1747]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.103 
+Jun 23 15:28:30 4geeks-server sshd[1769]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.103  user=hacker
+Jun 23 15:28:33 4geeks-server sshd[1769]: Failed password for hacker from 192.168.1.103 port 44272 ssh2
+Jun 23 15:28:40 4geeks-server sshd[1769]: Failed password for hacker from 192.168.1.103 port 44272 ssh2
+Jun 23 15:29:04 4geeks-server sshd[1769]: Connection closed by authenticating user hacker 192.168.1.103 port 44272 [preauth]
+Jun 23 15:29:04 4geeks-server sshd[1769]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.103  user=hacker
+Jun 23 15:29:14 4geeks-server sshd[1797]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.103  user=root
+Jun 23 15:29:15 4geeks-server sshd[1797]: Failed password for root from 192.168.1.103 port 47014 ssh2
+Jun 23 15:29:21 4geeks-server sshd[1797]: Failed password for root from 192.168.1.103 port 47014 ssh2
+Jun 23 15:29:49 4geeks-server sshd[1797]: Connection closed by authenticating user root 192.168.1.103 port 47014 [preauth]
+Jun 23 15:29:49 4geeks-server sshd[1797]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.103  user=root
+Jun 23 16:40:13 4geeks-server sshd[782]: Server listening on 0.0.0.0 port 22.
+Jun 23 16:40:13 4geeks-server sshd[782]: Server listening on :: port 22.
+Sep 23 01:21:09 4geeks-server sshd[789]: Server listening on 0.0.0.0 port 22.
+Sep 23 01:21:09 4geeks-server sshd[789]: Server listening on :: port 22.
+Sep 23 01:21:56 4geeks-server sshd[1594]: Accepted password for sysadmin from 10.0.2.15 port 59846 ssh2
+Sep 23 01:21:56 4geeks-server sshd[1594]: pam_unix(sshd:session): session opened for user sysadmin by (uid=0)

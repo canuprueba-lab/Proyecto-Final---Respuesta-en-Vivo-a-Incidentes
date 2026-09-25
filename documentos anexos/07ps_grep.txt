@@ -1,0 +1,56 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  6.1  0.2 168032 11488 ?        Ss   01:20   0:03 /sbin/init maybe-ubiquity
+root         360  0.5  0.3  60340 15644 ?        S<s  01:21   0:00 /lib/systemd/systemd-journald
+root         380  0.0  0.0   2488   576 ?        S    01:21   0:00 bpfilter_umh
+root         409  0.9  0.1  23040  6508 ?        Ss   01:21   0:00 /lib/systemd/systemd-udevd
+root         622  0.1  0.4 280200 18000 ?        SLsl 01:21   0:00 /sbin/multipathd -d -s
+systemd+     649  0.1  0.1  90880  6044 ?        Ssl  01:21   0:00 /lib/systemd/systemd-timesyncd
+systemd+     685  0.2  0.1  27264  7768 ?        Ss   01:21   0:00 /lib/systemd/systemd-networkd
+systemd+     687  0.2  0.3  25476 12960 ?        Ss   01:21   0:00 /lib/systemd/systemd-resolved
+root         699  0.0  0.1 235576  7296 ?        Ssl  01:21   0:00 /usr/lib/accountsservice/accounts-daemon
+root         706  0.0  0.0   6816  2900 ?        Ss   01:21   0:00 /usr/sbin/cron -f
+message+     707  0.1  0.1   7560  4488 ?        Ss   01:21   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         715  0.0  0.0  81828  3640 ?        Ssl  01:21   0:00 /usr/sbin/irqbalance --foreground
+root         716  0.1  0.4  29668 18436 ?        Ss   01:21   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         717  0.0  0.1 232732  6900 ?        Ssl  01:21   0:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       718  0.0  0.1 224344  5024 ?        Ssl  01:21   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         723  1.4  0.7 1319796 29940 ?       Ssl  01:21   0:00 /usr/lib/snapd/snapd
+root         730  0.1  0.1  17316  7660 ?        Ss   01:21   0:00 /lib/systemd/systemd-logind
+root         735  0.1  0.3 393260 12044 ?        Ssl  01:21   0:00 /usr/lib/udisks2/udisksd
+daemon       741  0.0  0.0   3796  2188 ?        Ss   01:21   0:00 /usr/sbin/atd -f
+root         745  0.0  0.0   6808  3020 ?        Ss   01:21   0:00 /usr/sbin/vsftpd /etc/vsftpd.conf
+root         763  0.0  0.0   5828  1704 tty1     Ss+  01:21   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         788  0.2  0.2 315112 11068 ?        Ssl  01:21   0:00 /usr/sbin/ModemManager
+root         804  0.1  0.5 107924 20744 ?        Ssl  01:21   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         841  0.0  0.0  25880  3588 ?        Sl   01:21   0:00 /var/ossec/bin/wazuh-execd
+root         844  0.0  0.1   6532  4528 ?        Ss   01:21   0:00 /usr/sbin/apache2 -k start
+www-data     845  0.0  0.1 1211420 4416 ?        Sl   01:21   0:00 /usr/sbin/apache2 -k start
+www-data     873  0.0  0.1 1211420 4416 ?        Sl   01:21   0:00 /usr/sbin/apache2 -k start
+wazuh        985  0.0  0.1 173620  7196 ?        Sl   01:21   0:00 /var/ossec/bin/wazuh-agentd
+root        1002  0.0  0.2 124284  8308 ?        SNl  01:21   0:00 /var/ossec/bin/wazuh-syscheckd
+root        1019  0.0  0.2 462552 10388 ?        Sl   01:21   0:00 /var/ossec/bin/wazuh-logcollector
+root        1049  0.7  0.4 535264 17144 ?        Sl   01:21   0:00 /var/ossec/bin/wazuh-modulesd
+root        1595  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1596  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1597  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1598  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1599  0.5  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1600  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1601  0.5  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1604  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1605  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+sysadmin    1606  5.0  0.2  19056  9688 ?        Ss   01:21   0:00 /lib/systemd/systemd --user
+root        1607  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1608  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1609  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1610  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+sysadmin    1611  0.0  0.0 169644  3400 ?        S    01:21   0:00 (sd-pam)
+root        1612  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1613  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1614  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1615  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1617  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1618  0.0  0.0  23040  4000 ?        S    01:21   0:00 /lib/systemd/systemd-udevd
+root        1664 50.0  0.6 111068 27704 ?        Sl   01:21   0:00 /usr/bin/python3 /usr/lib/ubuntu-release-upgrader/check-new-release -q
+sysadmin    1721  0.0  0.1  14072  5208 ?        S    01:21   0:00 sshd: sysadmin@notty
+sysadmin    1733  0.0  0.0   8888  3244 ?        R    01:21   0:00 ps aux

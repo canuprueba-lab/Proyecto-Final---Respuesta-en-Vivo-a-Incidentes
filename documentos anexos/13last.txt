@@ -1,0 +1,16 @@
+reboot   system boot  Wed Sep 23 01:21   still running      5.4.0-216-generic
+sysadmin tty1         Mon Jun 23 16:40 - down   (00:04)
+reboot   system boot  Mon Jun 23 16:40 - 16:45  (00:05)     5.4.0-216-generic
+sysadmin tty1         Mon Jun 23 15:24 - crash  (01:15)
+reboot   system boot  Mon Jun 23 15:23 - 16:45  (01:22)     5.4.0-216-generic
+sysadmin tty1         Mon Jun 23 15:01 - crash  (00:21)
+reboot   system boot  Mon Jun 23 14:48 - 16:45  (01:57)     5.4.0-216-generic
+sysadmin tty1         Mon Jun 23 14:08 - 14:43  (00:35)
+reports  tty1         Mon Jun 23 14:07 - 14:07  (00:00)
+sysadmin tty1         Mon Jun 23 14:05 - 14:07  (00:02)
+sysadmin tty1         Mon Jun 23 12:57 - 13:39  (00:42)
+reboot   system boot  Mon Jun 23 12:53 - 16:45  (03:52)     5.4.0-216-generic
+sysadmin tty1         Sat Jun 21 19:05 - down   (01:17)
+reboot   system boot  Sat Jun 21 19:03 - 20:22  (01:18)     5.4.0-216-generic
+
+wtmp begins Sat Jun 21 19:03:58 2025

@@ -1,0 +1,29 @@
+rm ~/.bash_history
+exit
+echo "Reminder: new credentials for reports stored temporarily in /opt/.archive" | sudo tee /home/reports/.note
+exit
+sudo mkdir -p /opt/.archive
+echo "reports:reports123" | sudo tee /opt/.archive/credentials.txt
+sudo chmod 644 /opt/.archive/credentials.txt
+echo "cat /opt/.archive/credentials.txt" | sudo tee /home/reports/.bash_history
+sudo chown reports:reports /home/reports/.bash_history
+echo "wget http://192.168.1.100/install.sh" | sudo tee -a /home/reports/.bash_history
+echo "chmod +x install.sh" | sudo tee -a /home/reports/.bash_history
+echo "./install.sh" | sudo tee -a /home/reports/.bash_history
+echo "nano backup.log" | sudo tee -a /home/reports/.bash_history
+sudo chown reports:reports /home/reports/.bash_history
+sudo touch /home/reports/install.sh
+sudo nano /home/reports/install.sh 
+sudo touch /home/reports/backup.log
+sudo nano /home/reports/backup.log
+sudo chown reports:reports /home/reports/install.sh /home/reports/backup.log 
+ls
+pwd
+sudo nano /home/reports/chat.txt
+sudo chown reports:reports /home/reports/chat.txt
+exit
+cat /var/backups/.logs/creds.txt
+sudo mkdir -p /var/backups/.logs
+echo "reports:reports123" | sudo tee /var/backups/.logs/creds.txt
+sudo chmod 644 /var/backups/.logs/creds.txt 
+echo "cat /var/backups/.logs/creds.txt" | sudo tee -a /home/sysadmin/.bash_history
